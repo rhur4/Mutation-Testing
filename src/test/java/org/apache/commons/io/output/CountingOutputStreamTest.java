@@ -113,4 +113,18 @@ public class CountingOutputStreamTest {
         }
     }
 
+    @Test
+    public void testGetCountIntMax() {
+        OutputStream outputStream = new OutputStream() {
+            @Override
+            public void write(int b) throws IOException {
+
+            }
+        };
+
+        CountingOutputStream countingOutputStream = new CountingOutputStream(outputStream);
+        countingOutputStream.beforeWrite(Integer.MAX_VALUE);
+        countingOutputStream.getCount(); // should run without exception with no mutation
+    }
+
 }

@@ -25,7 +25,11 @@ import java.io.IOException;
 import java.io.Writer;
 import java.nio.charset.StandardCharsets;
 import java.nio.charset.UnsupportedCharsetException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.concurrent.locks.Lock;
 
+import org.apache.commons.io.FileUtils;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -74,7 +78,7 @@ public class LockableFileWriterTest {
             } catch(final IOException ioe) {
                 final String msg = ioe.getMessage();
                 assertTrue( "Exception message does not start correctly. ",
-                            msg.startsWith("Can't write file, lock ") );
+                        msg.startsWith("Can't write file, lock ") );
                 assertTrue(file.exists());
                 assertTrue(lockFile.exists());
             }
@@ -85,7 +89,7 @@ public class LockableFileWriterTest {
             } catch(final IOException ioe) {
                 final String msg = ioe.getMessage();
                 assertTrue( "Exception message does not start correctly. ",
-                            msg.startsWith("Can't write file, lock ") );
+                        msg.startsWith("Can't write file, lock ") );
                 assertTrue(file.exists());
                 assertTrue(lockFile.exists());
             }
@@ -107,7 +111,7 @@ public class LockableFileWriterTest {
             } catch(final IOException ioe) {
                 final String msg = ioe.getMessage();
                 assertTrue( "Exception message does not start correctly. ",
-                            msg.startsWith("Can't write file, lock ") );
+                        msg.startsWith("Can't write file, lock ") );
                 assertTrue(file.exists());
                 assertTrue(altLockFile.exists());
             }
@@ -185,6 +189,38 @@ public class LockableFileWriterTest {
         }
         assertFalse(file.exists());
         assertFalse(lockFile.exists());
+    }
+
+    @Test
+    public void testWriteChar() throws Exception {
+        File testFile = new File("testfile.txt");
+        Writer writer = new LockableFileWriter(testFile);
+
+        writer.write('A');
+        writer.flush();
+        writer.close();
+
+        String content = FileUtils.readFileToString(testFile, "UTF-8");
+
+        assert(content.equals("A"));
+
+        testFile.delete();
+    }
+
+    @Test
+    public void testWriteStr() throws Exception {
+        File testFile = new File("testfile.txt");
+        Writer writer = new LockableFileWriter(testFile);
+
+        writer.write("string");
+        writer.flush();
+        writer.close();
+
+        String content = FileUtils.readFileToString(testFile, "UTF-8");
+
+        assert(content.equals("string"));
+
+        testFile.delete();
     }
 
 }

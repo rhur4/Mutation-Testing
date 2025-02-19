@@ -77,6 +77,7 @@ org\apache\commons\io\DirectoryWalkerTestCase$TestFileFinderString.class
 org\apache\commons\io\output\CloseShieldOutputStreamTest.class
 org\apache\commons\io\output\ProxyWriterTest$5.class
 org\apache\commons\io\output\TeeOutputStreamTest$ExceptionOnCloseByteArrayOutputStream.class
+org\apache\commons\io\output\CountingOutputStreamTest$1.class
 org\apache\commons\io\IOUtilsTestCase$7.class
 org\apache\commons\io\IOUtilsTestCase$13.class
 org\apache\commons\io\FileDeleteStrategyTestCase.class

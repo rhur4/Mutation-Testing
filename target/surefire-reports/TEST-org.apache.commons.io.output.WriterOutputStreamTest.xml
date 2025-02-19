@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk21.0.4_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\ryhur\AppData\Local\Temp\surefire12868169573279245322\surefirebooter8019943273533672905.jar C:\Users\ryhur\AppData\Local\Temp\surefire12868169573279245322 2025-02-19T12-29-14_492-jvmRun1 surefire7932226096237001265tmp surefire_5015270709941547601721tmp"/>
+    <property name="sun.java.command" value="C:\Users\ryhur\AppData\Local\Temp\surefire17819417816134011599\surefirebooter7961902312322339556.jar C:\Users\ryhur\AppData\Local\Temp\surefire17819417816134011599 2025-02-19T12-42-47_228-jvmRun1 surefire3181270362205095829tmp surefire_506322031038910689776tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ryhur\Desktop\SE333\commons-io-master\target\test-classes;C:\Users\ryhur\Desktop\SE333\commons-io-master\target\classes;C:\Users\ryhur\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ryhur\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ryhur\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\ryhur\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\ryhur\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ryhur\AppData\Local\Temp\surefire12868169573279245322\surefirebooter8019943273533672905.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ryhur\AppData\Local\Temp\surefire17819417816134011599\surefirebooter7961902312322339556.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+7-LTS"/>
@@ -62,13 +62,13 @@
   <testcase name="testUTF16LEWithSingleByteWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0.003"/>
   <testcase name="testFlush" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0"/>
   <testcase name="testLargeUTF8WithSingleByteWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0.003"/>
-  <testcase name="testUTF16WithSingleByteWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0"/>
+  <testcase name="testUTF16WithSingleByteWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0.001"/>
   <testcase name="testUTF16BEWithBufferedWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0"/>
-  <testcase name="testUTF16LEWithBufferedWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0.001"/>
+  <testcase name="testUTF16LEWithBufferedWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0"/>
   <testcase name="testUTF16BEWithSingleByteWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0"/>
   <testcase name="testUTF16WithBufferedWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0"/>
   <testcase name="testLargeUTF8WithBufferedWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0"/>
-  <testcase name="testWriteImmediately" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0.001"/>
+  <testcase name="testWriteImmediately" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0"/>
   <testcase name="testUTF8WithSingleByteWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0"/>
   <testcase name="testUTF8WithBufferedWrite" classname="org.apache.commons.io.output.WriterOutputStreamTest" time="0"/>
 </testsuite>

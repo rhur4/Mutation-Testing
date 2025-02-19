@@ -38,4 +38,25 @@ public class NullWriterTest {
         }
     }
 
+    @Test
+    public void testNullWriterAppendChar() {
+        NullWriter nullWriter = new NullWriter();
+
+        assert(nullWriter.append('A') != null);
+    }
+
+    @Test
+    public void testNullWriterAppendCharSeq() {
+        NullWriter nullWriter = new NullWriter();
+
+        assert(nullWriter.append("sequence") != null);
+    }
+
+    @Test
+    public void testNullWriteAppendCharSeqWithIndices() {
+        NullWriter nullWriter = new NullWriter();
+
+        assert(nullWriter.append("sequence", Integer.MIN_VALUE, Integer.MAX_VALUE) != null);
+    }
+
 }

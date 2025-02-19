@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk21.0.4_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\ryhur\AppData\Local\Temp\surefire12868169573279245322\surefirebooter7727004431040777.jar C:\Users\ryhur\AppData\Local\Temp\surefire12868169573279245322 2025-02-19T12-29-14_492-jvmRun1 surefire12503178277630320248tmp surefire_711424209853438198840tmp"/>
+    <property name="sun.java.command" value="C:\Users\ryhur\AppData\Local\Temp\surefire17819417816134011599\surefirebooter1949331522358561839.jar C:\Users\ryhur\AppData\Local\Temp\surefire17819417816134011599 2025-02-19T12-42-47_228-jvmRun1 surefire6781945817329748019tmp surefire_77173524760473911520tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ryhur\Desktop\SE333\commons-io-master\target\test-classes;C:\Users\ryhur\Desktop\SE333\commons-io-master\target\classes;C:\Users\ryhur\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ryhur\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ryhur\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\ryhur\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\ryhur\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ryhur\AppData\Local\Temp\surefire12868169573279245322\surefirebooter7727004431040777.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ryhur\AppData\Local\Temp\surefire17819417816134011599\surefirebooter1949331522358561839.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+7-LTS"/>
@@ -60,7 +60,7 @@
     <property name="java.class.version" value="65.0"/>
   </properties>
   <testcase name="testIO_356_B10_D10_S0_UTF8" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.002"/>
-  <testcase name="testLargeSingleByteRead_RequiredCharsets" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.02"/>
+  <testcase name="testLargeSingleByteRead_RequiredCharsets" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.022"/>
   <testcase name="testIO_356_B10_D10_S1_UTF8" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
   <testcase name="testIO_356_B10_D10_S2_UTF8" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
   <testcase name="testLargeBufferedRead_UTF8" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.002"/>
@@ -71,11 +71,11 @@
   <testcase name="testIO_356_Loop_UTF8" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.001"/>
   <testcase name="testMarkSupported" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.001"/>
   <testcase name="testReadZero_RequiredCharsets" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
-  <testcase name="testLargeBufferedRead_RequiredCharsets" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.013"/>
+  <testcase name="testLargeBufferedRead_RequiredCharsets" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.014"/>
   <testcase name="testMarkReset_UTF8" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
-  <testcase name="testAvailable" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.079"/>
+  <testcase name="testAvailable" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.08"/>
   <testcase name="testSingleByteRead_RequiredCharsets" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
-  <testcase name="testCharsetMismatchInfiniteLoop_RequiredCharsets" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.001"/>
+  <testcase name="testCharsetMismatchInfiniteLoop_RequiredCharsets" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
   <testcase name="testBufferedRead_UTF8" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
   <testcase name="testReadZero_EmptyString" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
   <testcase name="testSingleByteRead_UTF16" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
@@ -92,5 +92,5 @@
     <skipped/>
   </testcase>
   <testcase name="testIO_356_Loop_UTF16" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
-  <testcase name="testIO_356_B10_D20_S0_UTF8" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0.001"/>
+  <testcase name="testIO_356_B10_D20_S0_UTF8" classname="org.apache.commons.io.input.CharSequenceInputStreamTest" time="0"/>
 </testsuite>

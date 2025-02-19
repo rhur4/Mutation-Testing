@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.io.input.CountingInputStreamTest" time="0.039" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.io.input.CountingInputStreamTest" time="0.038" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk21.0.4_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\ryhur\AppData\Local\Temp\surefire12868169573279245322\surefirebooter6258544227478058462.jar C:\Users\ryhur\AppData\Local\Temp\surefire12868169573279245322 2025-02-19T12-29-14_492-jvmRun1 surefire1559190705177459509tmp surefire_1215785227648696578363tmp"/>
+    <property name="sun.java.command" value="C:\Users\ryhur\AppData\Local\Temp\surefire17819417816134011599\surefirebooter2006307328405415807.jar C:\Users\ryhur\AppData\Local\Temp\surefire17819417816134011599 2025-02-19T12-42-47_228-jvmRun1 surefire14077007707867874263tmp surefire_125604103539232248988tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ryhur\Desktop\SE333\commons-io-master\target\test-classes;C:\Users\ryhur\Desktop\SE333\commons-io-master\target\classes;C:\Users\ryhur\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ryhur\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ryhur\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\ryhur\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\ryhur\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ryhur\AppData\Local\Temp\surefire12868169573279245322\surefirebooter6258544227478058462.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ryhur\AppData\Local\Temp\surefire17819417816134011599\surefirebooter2006307328405415807.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+7-LTS"/>
@@ -61,12 +61,12 @@
   </properties>
   <testcase name="testLargeFiles_IO84" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0.012"/>
   <testcase name="testResetting" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0"/>
-  <testcase name="testZeroLength1" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0.001"/>
+  <testcase name="testZeroLength1" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0"/>
   <testcase name="testZeroLength2" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0"/>
   <testcase name="testZeroLength3" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0"/>
   <testcase name="testSkipping" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0"/>
   <testcase name="testEOF1" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0"/>
   <testcase name="testEOF2" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0"/>
-  <testcase name="testEOF3" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0"/>
-  <testcase name="testCounting" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0.001"/>
+  <testcase name="testEOF3" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0.001"/>
+  <testcase name="testCounting" classname="org.apache.commons.io.input.CountingInputStreamTest" time="0"/>
 </testsuite>
